@@ -1,0 +1,18 @@
+body { 
+    background-color:#191919;
+}
+
+.card{
+    margin: 16px;
+    padding: 20px;
+    border: solid 3px #393939;
+
+    font-family: 'Segoe UI';
+    color: #a6a6a6
+}
+
+.titulo{
+    font-size: larger;
+    color :rgb(255, 128, 0)
+}
+
