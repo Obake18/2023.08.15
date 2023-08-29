@@ -1,4 +1,4 @@
-let musica1 = new Musica ("After Dark",  "AKFG",  "World World World" )
+let musica1 = new Musica ('afterdark.jpg''After Dark',  "AKFG",  "World World World" )
 let musica2 = new Musica ("Lutar pelo que é meu",  "Charlie Brown JR",  "Transpiração Continua Prolongada" )
 let musica3 = new Musica ("Iron Man",  "Black Sabbath",  "Paranoid" )
 let musica4 = new Musica ("Pink Venom",  "BlackPink",  "BornPink" )
@@ -28,9 +28,9 @@ for (let i = 0; i < PlayList.length; i++) {
         <div class="card" </div>
         <div class= 'capa' src= img/ ${PlayList[i].capa}
         
-            <div class= '  '>${PlayList[i].  }</div>
-            <div class= 'artista'>${PlayList[i].}</div>
-            <div class= 'album'>${PlayList[i].}</div>
+            <div class= 'titulo'>${PlayList[i].titulo}</div>
+            <div class= 'artista'>${PlayList[i].artista}</div>
+            <div class= 'album'>${PlayList[i].album}</div>
         </div>
     `)
  
