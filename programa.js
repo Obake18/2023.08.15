@@ -25,7 +25,9 @@ let PlayList = [
 for (let i = 0; i < PlayList.length; i++) {
     let musica = PlayList[i];
     document.write(`
-        <div class="card"> 
+        <div class="card" </div>
+        <div class= 'capa' src= img/ ${PlayList[i].capa}
+        
             <div class= 'titulo'>${PlayList[i].titulo}</div>
             <div class= 'artista'>${PlayList[i].artitas}</div>
             <div class= 'album'>${PlayList[i].albums}</div>

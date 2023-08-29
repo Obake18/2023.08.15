@@ -15,8 +15,16 @@ body {
     color: #a6a6a6
 }
 
+.capa{
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+}
+
 .titulo{
     font-size: larger;
     color :rgb(255, 128, 0)
 }
+
+
 
