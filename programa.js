@@ -1,4 +1,4 @@
-let musica1 = new Musica ('afterdark.jpg''After Dark',  "AKFG",  "World World World" )
+let musica1 = new Musica ('afterdark.jpg','After Dark',  "AKFG",  "World World World" )
 let musica2 = new Musica ("Lutar pelo que é meu",  "Charlie Brown JR",  "Transpiração Continua Prolongada" )
 let musica3 = new Musica ("Iron Man",  "Black Sabbath",  "Paranoid" )
 let musica4 = new Musica ("Pink Venom",  "BlackPink",  "BornPink" )
