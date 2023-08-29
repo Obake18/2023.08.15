@@ -9,8 +9,10 @@ let musica8 = new Musica ("Há Tempos",  "Legião Urbana",  "As Quatro Estaçõe
 let musica9 = new Musica ("Akumunoomake",  "gesunokiwamiotome",  "Akumunoomake" )
 let musica10 = new Musica ("Metropolis",  "ALI",  "LOVE, MUSIC AND DANCE" )
 
-let PlayList = [
-    musica1,
+let PlayList = [];
+
+PlayList.push(musica1)
+
     musica2,
     musica3,
     musica4,
@@ -20,13 +22,12 @@ let PlayList = [
     musica8,
     musica9,
     musica10
-];
 
 for (let i = 0; i < PlayList.length; i++) {
     let musica = PlayList[i];
     document.write(`
         <div class="card" </div>
-        <div class= 'capa' src= img/ ${PlayList[i].capa}
+            <img class= 'capa' src='img/${PlayList[i].capa}'>
         
             <div class= 'titulo'>${PlayList[i].titulo}</div>
             <div class= 'artista'>${PlayList[i].artista}</div>
